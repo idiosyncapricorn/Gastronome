@@ -1,0 +1,697 @@
+{
+    "chocolate": {
+        "sweet": 5,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 1
+    },
+    "bacon": {
+        "sweet": 2,
+        "salty": 5,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "lemon": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 5,
+        "bitter": 2,
+        "umami": 1
+    },
+    "cheese": {
+        "sweet": 2,
+        "salty": 4,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 5
+    },
+    "tomato": {
+        "sweet": 3,
+        "salty": 2,
+        "sour": 3,
+        "bitter": 1,
+        "umami": 4
+    },
+    "soy sauce": {
+        "sweet": 1,
+        "salty": 5,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 5
+    },
+    "apple": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 3,
+        "bitter": 1,
+        "umami": 1
+    },
+    "spinach": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 2,
+        "bitter": 3,
+        "umami": 2
+    },
+    "mushroom": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 5
+    },
+    "honey": {
+        "sweet": 5,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "caviar": {
+        "sweet": 1,
+        "salty": 5,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "garlic": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 4
+    },
+    "onion": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 3
+    },
+    "carrot": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "broccoli": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 2,
+        "bitter": 3,
+        "umami": 2
+    },
+    "celery": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "chili pepper": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "pork": {
+        "sweet": 2,
+        "salty": 5,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "beef": {
+        "sweet": 2,
+        "salty": 4,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 5
+    },
+    "chicken": {
+        "sweet": 2,
+        "salty": 3,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "fish": {
+        "sweet": 1,
+        "salty": 4,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 5
+    },
+    "shrimp": {
+        "sweet": 2,
+        "salty": 4,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "eggplant": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 2
+    },
+    "zucchini": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 3
+    },
+    "potato": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "sweet corn": {
+        "sweet": 5,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "avocado": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 5
+    },
+    "pumpkin": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "butternut squash": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "cucumber": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "radish": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 1
+    },
+    "kale": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 4,
+        "umami": 2
+    },
+    "arugula": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 4,
+        "umami": 2
+    },
+    "chard": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 2
+    },
+    "beetroot": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "sweet potato": {
+        "sweet": 5,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "pasta": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "rice": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "bread": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "butter": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "cream": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "yogurt": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 4,
+        "bitter": 1,
+        "umami": 1
+    },
+    "milk": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "cheddar": {
+        "sweet": 1,
+        "salty": 4,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 4
+    },
+    "mozzarella": {
+        "sweet": 1,
+        "salty": 3,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "parmesan": {
+        "sweet": 1,
+        "salty": 5,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 5
+    },
+    "feta": {
+        "sweet": 1,
+        "salty": 4,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 3
+    },
+    "blue cheese": {
+        "sweet": 1,
+        "salty": 5,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 5
+    },
+    "ricotta": {
+        "sweet": 2,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "brie": {
+        "sweet": 1,
+        "salty": 3,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "goat cheese": {
+        "sweet": 1,
+        "salty": 3,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 4
+    },
+    "cream cheese": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "mayonnaise": {
+        "sweet": 2,
+        "salty": 2,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 3
+    },
+    "mustard": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 2,
+        "bitter": 3,
+        "umami": 2
+    },
+    "ketchup": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 1
+    },
+    "barbecue sauce": {
+        "sweet": 3,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 3
+    },
+    "hot sauce": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "soy milk": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "almond milk": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "oat milk": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "coconut milk": {
+        "sweet": 3,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "cashew milk": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "tofu": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 4
+    },
+    "tempeh": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 5
+    },
+    "seitan": {
+        "sweet": 1,
+        "salty": 2,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 4
+    },
+    "beans": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 3
+    },
+    "lentils": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "chickpeas": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 4
+    },
+    "peas": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "corn": {
+        "sweet": 3,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "quinoa": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 3
+    },
+    "barley": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 3
+    },
+    "oats": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "rye": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "wheat": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "couscous": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "bulgur": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "pita bread": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "tortilla": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "bagel": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 2
+    },
+    "croissant": {
+        "sweet": 3,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "brioche": {
+        "sweet": 3,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "sourdough": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 3,
+        "bitter": 1,
+        "umami": 1
+    },
+    "pancake": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "waffle": {
+        "sweet": 4,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "muffin": {
+        "sweet": 5,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 1,
+        "umami": 1
+    },
+    "parsley": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 1
+    },
+    "basil": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "oregano": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 3
+    },
+    "thyme": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 2
+    },
+    "rosemary": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 3
+    },
+    "sage": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 2
+    },
+    "cilantro": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "mint": {
+        "sweet": 3,
+        "salty": 1,
+        "sour": 2,
+        "bitter": 1,
+        "umami": 1
+    },
+    "dill": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 1
+    },
+    "chive": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "tarragon": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 2,
+        "umami": 2
+    },
+    "lemongrass": {
+        "sweet": 2,
+        "salty": 1,
+        "sour": 3,
+        "bitter": 1,
+        "umami": 2
+    },
+    "bay leaf": {
+        "sweet": 1,
+        "salty": 1,
+        "sour": 1,
+        "bitter": 3,
+        "umami": 2
+    }
+}
+
+

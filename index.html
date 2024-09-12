@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+            animation: pop 0.5s ease-in-out;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 3em;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .readme {
+            max-width: 800px;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .control-center {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        input, button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            background-color: #e0e0eb;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .result-container {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-container h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .result-container p {
+            margin: 5px 0;
+        }
+
+        .license-container {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        @keyframes pop {
+            0% {
+                transform: scale(0.8);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Gastronome</div>
+    <div class="readme">
+        <p>This project is inspired by an idea I came across in Vice around 10-12 years ago. The app is designed to help you create food combinations that you might not have considered before. By assigning levels to different foods based on their umami flavors, the app allows you to experiment with various ingredient mixes and discover new flavor profiles. Whether you're a chef looking for innovative recipes or simply curious about flavor pairings, this tool is here to assist in expanding your culinary horizons.</p>
+    </div>
+    <div class="control-center">
+        <h1>Ingredients Control Center</h1>
+
+        <h2>Add New Ingredient</h2>
+        <form action="{{ url_for('add_ingredient') }}" method="POST">
+            <input type="text" name="name" placeholder="Ingredient Name" required>
+            <input type="number" name="sugar" placeholder="Sugar (g)" required>
+            <input type="number" name="sodium" placeholder="Sodium (mg)" required>
+            <input type="number" name="acidity" placeholder="Acidity (%)" required>
+            <input type="number" name="bitterness" placeholder="Bitterness (scale)" required>
+            <input type="number" name="glutamate" placeholder="Glutamate (mg)" required>
+            <button type="submit">Add Ingredient</button>
+        </form>
+
+        <h2>Combine Ingredients</h2>
+        <form id="combine-form">
+            <input type="number" name="num_ingredients" placeholder="Number of Ingredients" required>
+            <button type="submit">Combine</button>
+        </form>
+    </div>
+
+    <div class="result-container" id="result">
+        <h3>Selected Ingredients</h3>
+        <p>basil, potato, pancake, mayonnaise, oats, wheat, shrimp, barley</p>
+        
+        <h3>Combined Flavor Profile</h3>
+        <p></p>
+        
+        <h3>Suggested Use</h3>
+        <p>Dessert</p>
+    </div>
+
+    <div class="license-container">
+        <p>© 2024 Gastronome by Gavin Morrison. All rights reserved. This project is licensed under the MIT License. See the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> for details.</p>
+    </div>
+
+    <script>
+        document.getElementById('combine-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            fetch('/combine_ingredients', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = `<h3>Selected Ingredients</h3>
+                                       <p>${data.selected.join(', ')}</p>
+                                       <h3>Combined Flavor Profile</h3>
+                                       <p>Bitter: ${data.combined_profile.bitter}<br>
+                                          Salty: ${data.combined_profile.salty}<br>
+                                          Sour: ${data.combined_profile.sour}<br>
+                                          Sweet: ${data.combined_profile.sweet}<br>
+                                          Umami: ${data.combined_profile.umami}</p>
+                                       <h3>Suggested Use</h3>
+                                       <p>${data.suggestion}</p>`;
+            });
+        });
+    </script>
+</body>
+</html>
