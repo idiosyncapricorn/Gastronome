@@ -1,8 +1,4 @@
-Here's a draft of the README for your project:
-
----
-
-# Gastronome
+Gastronome
 
 [Gastronome](https://idiosyncapricorn.github.io/Gastronome/) is a web-based app that helps you discover new and exciting food combinations. Inspired by an idea from Vice about 10-12 years ago, Gastronome is designed to broaden your culinary imagination by mixing ingredients in ways you may not have considered before.
 
