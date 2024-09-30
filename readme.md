@@ -1,3 +1,5 @@
+'''markdown
+
 ----
 
 # Gastronome
@@ -37,3 +39,5 @@ For optimal performance, the app is designed to run through Flask, using port `1
    
    ```bash
    flask run --port=129XX
+
+----
