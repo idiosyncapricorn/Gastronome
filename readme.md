@@ -1,8 +1,6 @@
-```markdown
-
 ----
 
-#Gastronome
+# Gastronome
 
 [Gastronome](https://idiosyncapricorn.github.io/Gastronome/) is a web-based app that helps you discover new and exciting food combinations. Inspired by an idea from Vice about 10-12 years ago, Gastronome is designed to broaden your culinary imagination by mixing ingredients in ways you may not have considered before.
 
@@ -29,33 +27,13 @@ Whether you're a professional chef or just a food enthusiast, Gastronome is a to
 
 To use Gastronome, visit the [Gastronome website](https://idiosyncapricorn.github.io/Gastronome/) and start experimenting with ingredients.
 
-### Prerequisites
+### Running the App Locally
 
-- A modern web browser (Chrome, Firefox, Safari, Edge, etc.)
-  
-## Features
+For optimal performance, the app is designed to run through Flask, using port `129XX` (or any specified port of your choice). Follow these steps to run it locally:
 
-- **Ingredient Flavor Levels**: Get suggestions based on the umami profiles of ingredients.
-- **Customizable Combinations**: Choose ingredients you have on hand and see what flavor pairings are possible.
-- **Simple and Intuitive Interface**: Easily input ingredients and receive recommendations for new combinations.
-
-## Technologies Used
-
-- HTML/CSS/JavaScript
-- [Insert any other libraries or frameworks here]
-
-## Contributing
-
-Contributions to the project are welcome! If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-----
+1. Ensure you have Python and Flask installed on your machine.
+2. Clone the repository.
+3. Run the Flask server by navigating to the project directory and executing the following command in the terminal:
+   
+   ```bash
+   flask run --port=129XX
